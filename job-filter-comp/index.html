@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job filter component</title>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <header>
+                <div class="search">
+                    <input type="text" placeholder="Search by keyword">
+                </div>
+            </header>
+            <div class="card-body">
+                <div class="checkbox-list">
+                    <h4>JOB TYPES</h4>
+                    <ul>
+                        <li>
+                            <label>
+                                <input checked type="checkbox">
+                                <span>All</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>Full Time</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>Freelance</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>Internship</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="select-list">
+                    <h4>LOCATION</h4>
+                    <ul>
+                        <li>
+                            <label for="country">Country/Region</label>
+                            <select name="country" id="country">
+                                <option value="1">Turkey</option>
+                                <option value="2">France</option>
+                                <option value="3">Germany</option>
+                                <option value="4">USA</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="city">City</label>
+                            <select name="city" id="city">
+                                <option value="1">Erzincan</option>
+                                <option value="2">Ankara</option>
+                                <option value="3">Antalya</option>
+                                <option value="4">Bursa</option>
+                            </select>
+                        </li>
+                        <li>
+                            <button>Apply</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
