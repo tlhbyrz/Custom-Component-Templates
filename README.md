@@ -1,6 +1,6 @@
 live examples:
 
-# css_only_dropdowns
+# outside-click
 https://laughing-poitras-73812b.netlify.app/
 
 # job-filter-comp
